@@ -6,7 +6,7 @@ router = APIRouter(prefix='/blog', tags=['Blog'], )
 
 
 class BlogModel(BaseModel):
-    title: str
+    title:str
     content: str
     nb_comments: int
     published: Optional[bool]
